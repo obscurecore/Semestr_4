@@ -9,4 +9,7 @@ public class Adress {
     @Transient// не сохраняет данные в таблицу
     String street;
     int number;
+
+
 }
+

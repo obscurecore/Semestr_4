@@ -1,9 +1,6 @@
 package entity;
 
-import org.hibernate.annotations.Formula;
 import org.hibernate.annotations.Type;
-
-import javax.persistence.*;
 
 @Entity
 //@Entity(name = "dssad")
