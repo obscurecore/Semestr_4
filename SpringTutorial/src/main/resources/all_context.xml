@@ -7,13 +7,29 @@
 
 	<import resource="t1000_context.xml" />
 
-	<bean class="ru.javabegin.training.spring.main.MyBeanPostProcessor" />
+	<bean class="MyBeanPostProcessor" />
 
-	<bean id="t1000Conveyor" class="ru.javabegin.training.spring.impls.conveyor.T1000Conveyor">
+	<bean id="t1000Conveyor"
+		class="T1000Conveyor">
 		<lookup-method name="createRobot" bean="t1000" />
 	</bean>
 
+	<bean id="t1000Pool" class="T1000Pool">
+		<property name="robotCollection">
+			<list>
+				<ref bean="t1000" />
+				
+				<bean class="ModelT1000"
+					parent="baseModel">
 
-
+					<constructor-arg value="gold" index="3" type="String" />
+					<constructor-arg value="2007" index="4" type="int" />
+					<constructor-arg value="false" index="5" type="boolean" />
+				</bean>
+				
+				
+			</list>
+		</property>
+	</bean>
 
 </beans>
