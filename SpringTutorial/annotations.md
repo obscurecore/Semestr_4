@@ -9,7 +9,7 @@
 @Bean В классах конфигурации Spring, @Bean используется для определения компонентов с кастомной логикой.
 @Scope
 
-@Configuration eclare that this class provides one or more @Bean methods and may be processed by the Spring container
+@Configuration declare that this class provides one or more @Bean methods and may be processed by the Spring container
  to generate bean definitions and service requests for those beans at runtime.
  
 @Component Scan - find class's config(find service,controller). don't find interface. only one scan before start app

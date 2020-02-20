@@ -1,5 +1,7 @@
 package ex01.domain;
 
+
+
 public class Person {
 
     private String name;
