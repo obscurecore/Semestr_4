@@ -1,4 +1,4 @@
-package ru.otus.spring.domain;
+package e01.domain;
 
 public class Email {
 

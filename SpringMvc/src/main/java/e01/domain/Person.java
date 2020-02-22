@@ -1,4 +1,4 @@
-package ru.otus.spring.domain;
+package e01.domain;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.keyvalue.annotation.KeySpace;

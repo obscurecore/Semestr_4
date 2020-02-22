@@ -1,7 +1,7 @@
-package ru.otus.spring.repostory;
+package e01.repostory;
 
+import e01.domain.Person;
 import org.springframework.data.repository.PagingAndSortingRepository;
-import ru.otus.spring.domain.Person;
 
 import java.util.List;
 
